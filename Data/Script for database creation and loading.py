@@ -5,7 +5,7 @@ import sqlite3
 # Get the current directory
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
-# List of CSV files (assuming they are in the same directory as this script)
+# List of CSV files 
 csv_files = [
     'ACCIDENT.csv',
     'ACCIDENT_EVENT.csv',
