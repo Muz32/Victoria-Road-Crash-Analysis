@@ -106,11 +106,11 @@ async function loadAndSumData(year) {
 
         // Renaming the keys for better readability in the plot
         const renamedResult = {
-            'Number of people involved': result.NO_PERSONS,
-            'Number of people with a serious injury': result.NO_PERSONS_INJ_2,
-            'Number of people with an other injury': result.NO_PERSONS_INJ_3,
-            'Number of people killed': result.NO_PERSONS_KILLED,
-            'Number of people with no injuries': result.NO_PERSONS_NOT_INJ,
+            'No. of people involved': result.NO_PERSONS,
+            'No. of people with a serious injury': result.NO_PERSONS_INJ_2,
+            'No. of people with an other injury': result.NO_PERSONS_INJ_3,
+            'N0. of people killed': result.NO_PERSONS_KILLED,
+            'No. of people with no injuries': result.NO_PERSONS_NOT_INJ,
         };
 
         return renamedResult;
