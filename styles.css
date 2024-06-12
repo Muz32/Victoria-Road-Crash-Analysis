@@ -29,6 +29,18 @@ h1 {
     position: relative; /* Ensure the plot area is positioned correctly */
 }
 
+#vehicle_plot,
+#lga_plot {
+    background-color: #ffffff; /* White background for clarity */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+    margin: 20px auto;
+    max-width: 90%; /* Limit the width to keep it responsive */
+    min-height: 400px; /* Ensure a minimum height for the plot area */
+    position: relative; /* Ensure the plot area is positioned correctly */
+}
+
 /* Highlight important elements */
 .highlight {
     color: #ff0000; /* Red to signify importance or warnings */
@@ -40,6 +52,11 @@ h1 {
         font-size: 1.5em; /* Smaller font size for smaller screens */
     }
     #plot {
+        padding: 10px;
+        margin: 10px auto;
+    }
+    #vehicle_plot,
+    #lga_plot {
         padding: 10px;
         margin: 10px auto;
     }
