@@ -9,7 +9,7 @@ Collaborators:
 
 ## Project Overview
 
-### Objective:
+### Objective
 Our project endeavors to cast a spotlight on the underlying patterns of road traffic incidents in the state of Victoria, Australia, by deploying advanced data visualizations. Visualisations will be based on accident dataset attributes including Accident Types, Level of injuries/deaths, demographics of people, types of roads user, weather conditions, location and vehicle types. 
 
 ### Visualization Strategy
