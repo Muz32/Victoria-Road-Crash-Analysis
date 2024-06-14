@@ -9,14 +9,15 @@ Collaborators:
 
 ## Project Overview
 
-### Objective: Our project endeavors to cast a spotlight on the underlying patterns of road traffic incidents in the state of Victoria, Australia, by deploying advanced data visualizations. Visualisations will be based on accident dataset attributes including Accident Types, Level of injuries/deaths, demographics of people, types of roads user, weather conditions, location and vehicle types. 
+### Objective:
+Our project endeavors to cast a spotlight on the underlying patterns of road traffic incidents in the state of Victoria, Australia, by deploying advanced data visualizations. Visualisations will be based on accident dataset attributes including Accident Types, Level of injuries/deaths, demographics of people, types of roads user, weather conditions, location and vehicle types. 
 
 ### Visualization Strategy
 Leveraging JavaScript libraries such as **Plotly, Leaflet, and D3**, we are crafting an array of interactive charts that serve as a compelling visual narrative of the data. Users will be empowered to:
 
 - **Select Data**: Choose specific datasets for a tailored analytical view.
 - **Customize Visuals**: Opt for their preferred chart types, including bar graphs, pie charts, time series analyses, and geospatial representations of accident data.
-- 
+  
 ### User Engagement
 The interactive platform will invite users to engage with the data intimately, offering them control over the visualization parameters. This hands-on approach aims to foster a deeper understanding of the road safety environment in Victoria.
 
@@ -66,7 +67,7 @@ Clone or download the entire project repository to your local machine.
 
 Our webpage is organized into five distinct sections, each offering unique visualization capabilities:
 
-#### Basic Visualizations
+#### 1.Basic Visualizations
 This section enables users to plot basic visualizations of various datasets across different years. To begin:
 1. Use the 'Select Field' dropdown menu to choose the desired year for data plotting (available years range from 2012 to 2023).
 2. The subsequent dropdown menu allows selection of the dataset type, including:
@@ -83,7 +84,7 @@ This section enables users to plot basic visualizations of various datasets acro
 3. Choose the preferred visualization format (bar or pie chart).
 4. Click the "Plot Data" button to generate and display the chart.
 
-#### Time Series Plots
+#### 2.Time Series Plots
 Plot time series data spanning from 2012 to 2023 by:
 1. Selecting the dataset from the first dropdown menu, options include:
    - Injuries and Deaths
@@ -92,16 +93,16 @@ Plot time series data spanning from 2012 to 2023 by:
 2. Choosing the visualization style (Line Chart or Stacked Bar Chart).
 3. Clicking 'Plot Data' to view the time series chart.
 
-#### Sunburst Chart
+#### 3.Sunburst Chart
 The chart itself is an interactive chart which can be clicked upon to visualise hierarchal data. It shows count of accidents for 5 different years, with a breakdown on gender, and injury level description. 
 To interact with the chart:
 1. Click on a year to unfold data for that period, segmented by the count of accidents per gender.
 2. Select a gender to drill down into the count of injury levels for that category.
 3. Click on the center of the chart to navigate back up the hierarchy, allowing you to select another gender or return to the year selection.
 
-#### (explanation of fourth section)
+#### 4.(explanation of fourth section)
 
-#### (explanation of fifth section)
+#### 5.(explanation of fifth section)
 
 ## Ethical Considerations
 
