@@ -133,7 +133,7 @@ Contains all the datasets and scripts used in the project:
 - `Metadata Documentation for Victoria Road Crash Database.pdf`: PDF document detailing the metadata of the datasets.
 ### Project Proposal Folder
 - Contains the `.docx` file with the detailed project proposal.
-- 
+  
 ## Resources & References
 
 
