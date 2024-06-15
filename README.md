@@ -85,7 +85,14 @@ This section enables users to plot basic visualizations of various datasets acro
 3. Choose the preferred visualization format (bar or pie chart).
 4. Click the "Plot Data" button to generate and display the chart.
 
-#### 2.Time Series Plots
+#### 2.Sunburst Chart
+The chart itself is an interactive chart which can be clicked upon to visualise hierarchical data. It shows count of accidents for 5 different years, with a breakdown on gender, and injury level description. 
+To interact with the chart:
+1. Click on a year to unfold data for that period, segmented by the count of accidents per gender.
+2. Select a gender to drill down into the count of injury levels for that category.
+3. Click on the center of the chart to navigate back up the hierarchy, allowing you to select another gender or return to the year selection.
+
+#### 3.Time Series Plots
 Plot time series data spanning from 2012 to 2023 by:
 1. Selecting the dataset from the first dropdown menu, options include:
    - Injuries and Deaths
@@ -93,13 +100,6 @@ Plot time series data spanning from 2012 to 2023 by:
    - Local Government Area
 2. Choosing the visualization style (Line Chart or Stacked Bar Chart).
 3. Clicking 'Plot Data' to view the time series chart.
-
-#### 3.Sunburst Chart
-The chart itself is an interactive chart which can be clicked upon to visualise hierarchical data. It shows count of accidents for 5 different years, with a breakdown on gender, and injury level description. 
-To interact with the chart:
-1. Click on a year to unfold data for that period, segmented by the count of accidents per gender.
-2. Select a gender to drill down into the count of injury levels for that category.
-3. Click on the center of the chart to navigate back up the hierarchy, allowing you to select another gender or return to the year selection.
 
 #### 4.(explanation of fourth section)
 
