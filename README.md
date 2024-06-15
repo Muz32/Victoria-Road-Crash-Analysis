@@ -30,9 +30,9 @@ Some research questions the visualisations would answer include:
 - What demographic of people are most involved in accidents?
   - Males vs. females
   - Age groups
-  - Pedestrians or passengers
+  - Drivers,  Passengers, Pedestrians, Cyclists 
 - What Local Government Areas (LGAs) have the most accidents? Which LGAs have the least?
-- How has the number of accidents changed over the years (2012 - 2024)?
+- How has the number of accidents changed over the years (2012 - 2023)?
 - What types of vehicles are mostly involved in accidents?
 - What are the most risky conditions to drive in? 
 
@@ -60,8 +60,8 @@ Clone or download the entire project repository to your local machine.
 
 ### Step 4: Local Server Connection
 1. Open the terminal and navigate to the "Victoria Road Crash Analysis" project folder.
-2. Execute `node server.js` to start the server.
-3. Access the visualization webpage by navigating to `http://localhost:3000` in your web browser.
+2. Type `node server.js` and press enter. It would give you a server link such as this: `http://localhost:3000`.  
+3. Click open the link or copy and paste the link in your web browser and press enter. A visualisation web page should launch. Alternatively, the same step can be followed in VS Code by opening the project folder then opening a new terminal and typing `node server.js` and pressing enter. It would give a server link which you can use to launch the visualisation web page.  
 
 ### Step 5: Interacting with the Webpage
 
@@ -94,7 +94,7 @@ Plot time series data spanning from 2012 to 2023 by:
 3. Clicking 'Plot Data' to view the time series chart.
 
 #### 3.Sunburst Chart
-The chart itself is an interactive chart which can be clicked upon to visualise hierarchal data. It shows count of accidents for 5 different years, with a breakdown on gender, and injury level description. 
+The chart itself is an interactive chart which can be clicked upon to visualise hierarchical data. It shows count of accidents for 5 different years, with a breakdown on gender, and injury level description. 
 To interact with the chart:
 1. Click on a year to unfold data for that period, segmented by the count of accidents per gender.
 2. Select a gender to drill down into the count of injury levels for that category.
@@ -132,7 +132,7 @@ Contains all the datasets and scripts used in the project:
 - `Script for database creation and loading.py`: Python script to create and populate the SQLite database.
 - `Metadata Documentation for Victoria Road Crash Database.pdf`: PDF document detailing the metadata of the datasets.
 ### Project Proposal Folder
-- Contains the `.docx` file with the detailed project proposal.
+- `Project Proposal.docx`: Provides an outline of the proposed project idea, summarizing the core concept and anticipated direction.
   
 ## Resources & References
 
