@@ -65,14 +65,17 @@
 
     <div id="plot" aria-label="Plot area for crash data analysis"></div>
 
+       <!-- Add sunburst chart -->
+       <h2>Sunburst Chart</h2>
+       <div id="sunburstChart" aria-label="Sunburst chart for crash data analysis"></div>
+   
     <h2>Time Series Plots</h2>
     <div>
         <label for="comparisonFieldSelect">Select Field:</label>
         <select id="comparisonFieldSelect">
             <option value="Injuries and Deaths">Injuries and Deaths</option>
             <option value="GENDER">Gender</option>
-            <option value="Local Government Area">Local Government Area</option>
-                       
+            <option value="Local Government Area">Local Government Area</option>                     
         </select>
     </div>
     
@@ -87,17 +90,17 @@
     
     <div id="comparisonPlot" aria-label="Plot area for dataset comparisons"></div>
 
-    <!-- Add sunburst chart -->
-    <h2>Sunburst Chart</h2>
-    <div id="sunburstChart" aria-label="Sunburst chart for crash data analysis"></div>
-    
+
+    <!-- Deeper analysis charts -->
+    <h2>Deeper Analysis between Datasets</h2>
+    <div id="fatalAccidentProbabilityChart" class="chart-container"></div>
+    <div id="crashesBySeverityChart" class="chart-container"></div>
 
     <!-- External JavaScript -->
     <script src="app1.js"></script>
     <script src="app2.js"></script>
     <script src="app3.js"></script>
+    <script src="app4.js"></script>
     
 </body>
 </html>
-
-
