@@ -8,27 +8,27 @@ body {
 }
 
 /* Header styles */
-h1 {
+h1, h2 {
     background-color: #00274d; /* Deep blue to represent trust and stability */
     color: #ffffff; /* White text for contrast */
     padding: 20px;
     text-align: center;
     margin: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Space between headers and content */
 }
 
 /* Container for the plot */
-#plot {
+#plot, #comparisonPlot, #sunburstChart {
     background-color: #ffffff; /* White background for clarity */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
     margin: 20px auto;
     max-width: 90%; /* Limit the width to keep it responsive */
-    min-height: 400px; /* Ensure a minimum height for the plot area */
+    min-height: 500px; /* Ensure a minimum height for the plot area */
     position: relative; /* Ensure the plot area is positioned correctly */
 }
-
 
 /* Highlight important elements */
 .highlight {
@@ -37,10 +37,10 @@ h1 {
 
 /* Responsive design */
 @media (max-width: 768px) {
-    h1 {
+    h1, h2 {
         font-size: 1.5em; /* Smaller font size for smaller screens */
     }
-    #plot {
+    #plot, #comparisonPlot, #sunburstChart {
         padding: 10px;
         margin: 10px auto;
     }

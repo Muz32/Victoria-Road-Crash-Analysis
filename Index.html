@@ -16,6 +16,7 @@
 </head>
 <body>
     <h1>Crash Data Analysis in Victoria</h1>
+    <h2>Basic Visualisations</h2>
 
     <div>
         <label for="yearSelect">Select Year:</label>
@@ -38,20 +39,18 @@
     <div>
         <label for="fieldSelect">Select Field:</label>
         <select id="fieldSelect">
-            <option value="NO_PERSONS">Injuries and Deaths</option>
+            <option value="NO_PERSONS_INJ_2">Injuries and Deaths</option>
             <option value="ACCIDENT_TYPE_DESC">Accident Type</option>
             <option value="DAY_WEEK_DESC">Day of Week</option>
             <option value="ACCIDENT_TIME">Time of Accident</option>
             <option value="ATMOSPH_COND_DESC">Atmospheric Condition</option>
-            <option value="LGA_NAME">Local Government Area Name</option>
+            <option value="LGA_NAME">Local Government Area</option>
             <option value="SEX">Gender</option>
             <option value="AGE_GROUP">Age Group</option>
-            <option value="INJ_LEVEL_DESC">Injury Level</option>
             <option value="ROAD_USER_TYPE_DESC">Road User Type</option>
-            <option value="SURFACE_COND_DESC">Surface Condition</option>
+            <option value="SURFACE_COND_DESC">Road Surface Condition</option>
             <option value="VEHICLE_TYPE_DESC">Vehicle Type</option>
             <option value="VEHICLE_BODY_STYLE">Vehicle Body Style</option>
-                       
         </select>
     </div>
 
@@ -65,8 +64,40 @@
     <button id="plotButton">Plot Data</button>
 
     <div id="plot" aria-label="Plot area for crash data analysis"></div>
+
+    <h2>Time Series Plots</h2>
+    <div>
+        <label for="comparisonFieldSelect">Select Field:</label>
+        <select id="comparisonFieldSelect">
+            <option value="Injuries and Deaths">Injuries and Deaths</option>
+            <option value="GENDER">Gender</option>
+            <option value="Local Government Area">Local Government Area</option>
+                       
+        </select>
+    </div>
+    
+    <div>
+        <input type="radio" id="lineChart" name="comparisonChartType" value="line" checked>
+        <label for="lineChart">Line Chart</label>
+        <input type="radio" id="stackedBarChart" name="comparisonChartType" value="stackedBar">
+        <label for="stackedBarChart">Stacked Bar Chart</label>
+    </div>
+    
+    <button id="comparisonPlotButton">Plot Data</button>
+    
+    <div id="comparisonPlot" aria-label="Plot area for dataset comparisons"></div>
+
+    <!-- Add sunburst chart -->
+    <h2>Sunburst Chart</h2>
+    <div id="sunburstChart" aria-label="Sunburst chart for crash data analysis"></div>
+    
+
     <!-- External JavaScript -->
     <script src="app1.js"></script>
-
+    <script src="app2.js"></script>
+    <script src="app3.js"></script>
+    
 </body>
 </html>
+
+
