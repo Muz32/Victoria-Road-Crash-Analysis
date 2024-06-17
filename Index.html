@@ -11,6 +11,7 @@
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <!-- SQL.js Library -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.5.0/sql-wasm.js"></script>
+
     <!-- Leaflet.js Library -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -18,11 +19,14 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
     <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+    <script src="https://unpkg.com/leaflet.heat/dist/leaflet-heat.js"></script>
+
     <!-- External CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Crash Data Analysis in Victoria</h1>
+    <img src="Images/Image1.png" alt="Victoria map and crash vehicle" class="top-image">
+    <h1>Interactive Visualisations on Road Accident Data in Victoria</h1>
     <h2>Basic Visualisations</h2>
 
     <div>
@@ -102,33 +106,41 @@
     <h2>Deeper Analysis between Datasets</h2>
     <div id="fatalAccidentProbabilityChart" class="chart-container"></div>
     <div id="crashesBySeverityChart" class="chart-container"></div>
-
+     
     <!--Geospatial Visualisations -->
-    
-    <h2>Geospatial Visualisations</h2>
-    <div id="map-filters">
-            <div>
-            <label for="yearSelectMap">Select Year:</label>
-            <select id="yearSelectMap">
-                <option value="2012">2012</option>
-                <option value="2013">2013</option>
-                <option value="2014">2014</option>
-                <option value="2015">2015</option>
-                <option value="2016">2016</option>
-                <option value="2017">2017</option>
-                <option value="2018">2018</option>
-                <option value="2019">2019</option>
-                <option value="2020">2020</option>
-                <option value="2021">2021</option>
-                <option value="2022">2022</option>
-                <option value="2023">2023</option>
-            </select>
-        </div>
-
-        <button id="plotButtonMap">Plot Map Data</button>
+<h2>Geospatial Visualisations</h2>
+<div id="map-filters">
+    <div>
+        <label for="yearSelectMap">Select Year:</label>
+        <select id="yearSelectMap">
+            <option value="2012">2012</option>
+            <option value="2013">2013</option>
+            <option value="2014">2014</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+            <option value="2023">2023</option>
+        </select>
     </div>
 
-    <div id="map" aria-label="Map area for crash data analysis" style="height: 500px;"></div>
+    <div>
+        <label for="mapTypeSelect">Select Map Type:</label>
+        <select id="mapTypeSelect">
+            <option value="marker">Marker Map</option>
+            <option value="heatmap">Heat Map</option>
+           
+        </select>
+    </div>
+
+    <button id="plotButtonMap">Plot Map Data</button>
+</div>
+
+<div id="map" aria-label="Map area for crash data analysis" style="height: 500px;"></div>
 
 
     <!-- External JavaScript -->

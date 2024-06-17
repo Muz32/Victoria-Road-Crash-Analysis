@@ -1,3 +1,13 @@
+.top-image {
+    width: 100%; /* Full width */
+    height: 100%; /* Set the desired height */
+    display: block; /* Display as block */
+    margin-bottom: 20px; /* Space between the image and the next element */
+    object-fit: contain; /* Ensures the image covers the container without stretching */
+}
+
+
+
 /* Background for the entire body */
 body {
     background-color: #e0e0e0; /* Light grey for a neutral background */
@@ -45,3 +55,5 @@ h1, h2 {
         margin: 10px auto;
     }
 }
+
+
