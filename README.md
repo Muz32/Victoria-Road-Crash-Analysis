@@ -116,9 +116,9 @@ Discover the geographic patterns of road accidents in the map of Victoria. Follo
 
 ## Ethical Considerations
 
-Our project utilizes datasets from the DataVic website, Victoria’s open data platform, that is governed by the DataVic Access Policy. This policy facilitates public access to government data, fostering research, education, and innovation, while contributing to productivity and economic growth in Victoria. It mandates that all state agencies’ datasets be publicly available unless restricted due to privacy, safety, security, law enforcement, public health, or legal compliance.
+Our project utilizes datasets from the DataVic website, Victoria’s open data platform, that is governed by the DataVic Access Policy. This policy facilitates public access to government data, fostering research, education, and innovation, while contributing to productivity and economic growth in Victoria. It mandates that all state agencies’ datasets be publicly available unless restricted due to privacy, safety, security, law enforcement, public health, or legal compliance. Additionally, the Freedom of Information Act 1982 (Vic) mandates public sector transparency, granting access to agency-held information.
 
-In line with this policy, our project’s use of DataVic’s data is endorsed and encouraged. Additionally, the Freedom of Information Act 1982 (Vic) mandates public sector transparency, granting access to agency-held information. Our project’s database, built on SQLite, excludes personal identifiers like names or addresses, ensuring individual privacy is maintained in our published work. This approach aligns with both the DataVic policy and privacy regulations, demonstrating our commitment to ethical data usage.
+In line with the DataVic Access policy, our project’s use of DataVic’s data is endorsed and encouraged.  Our project’s database, built on SQLite, excludes personal identifiers like names or addresses, ensuring individual privacy is maintained in our published work. This approach aligns with both the DataVic policy and privacy regulations, demonstrating our commitment to ethical data usage.
 
 ## Files and Folders
 Below is the structure of the project repository, detailing the primary files and folders along with their contents:
@@ -148,6 +148,7 @@ Contains all the datasets and scripts used in the project:
   
 ## Resources & References
 - [DataVic Access Policy](https://www.data.vic.gov.au/datavic-access-policy)
+- [Freedom of Information Act 1982 (Vic)](https://www.legislation.vic.gov.au/in-force/acts/freedom-information-act-1982/111)
 - [Victoria Road Crash Data](https://discover.data.vic.gov.au/dataset/victoria-road-crash-data)
 - [Plotly JavaScript Graphing Library](https://plotly.com/javascript/)
 - [SQLite JavaScript Library](https://sql.js.org/#/)
