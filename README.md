@@ -101,9 +101,17 @@ Plot time series data spanning from 2012 to 2023 by:
 2. Choosing the visualization style (Line Chart or Stacked Bar Chart).
 3. Clicking 'Plot Data' to view the time series chart.
 
-#### 4.(explanation of fourth section)
+#### 4.Deeper Analysis between datasets
+This section shows pre-plotted charts, which include the probability of fatal accidents by vehicle make per year, crash counts by severity, and more. To interact with the data:
+Click on legend labels to toggle between datasets and watch the dynamic plots adjust to reflect different variables.
 
-#### 5.(explanation of fifth section)
+#### 5.Geospatial Visualisations
+Discover the geographic patterns of road accidents in the map of Victoria. Follow these steps:
+1. Select a year from the dropdown to focus on that period’s data.
+2. Choose your map type: ‘Marker Map’ for individual accident points or ‘Heat Map’ for overall density.
+3. Plot the data and interact with the map:
+  Marker Map: Zoom in to break down clusters into smaller groups, revealing accident counts by location. Further zooming shows individual accidents, with pop-up markers providing details like ‘Date’, ‘Time’, and ‘Accident Type’.
+  Heat Map: Visualise accident hotspots and their intensity across the region.
 
 ## Ethical Considerations
 
@@ -118,6 +126,8 @@ Below is the structure of the project repository, detailing the primary files an
 - `app1.js`: JavaScript file containing logic for basic visualizations.
 - `app2.js`: JavaScript file for time series plot functionality.
 - `app3.js`: JavaScript file handling the Sunburst Chart interactions.
+- `app4.js`: JavaScript file for handling deeper analysis between datasets.
+- `app5.js`: JavaScript file handling geospatial visulisations.
 - `styles.css`: Cascading Style Sheets file defining the styling of the webpage.
 ### Data Folder
 Contains all the datasets and scripts used in the project:
