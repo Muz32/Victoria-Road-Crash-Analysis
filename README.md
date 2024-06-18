@@ -33,9 +33,10 @@ Some research questions the visualisations would answer include:
   - Age groups
   - Drivers,  Passengers, Pedestrians, Cyclists 
 - What Local Government Areas (LGAs) have the most accidents? Which LGAs have the least?
+- The day of week and time of day most accidents happen?
 - How has the number of accidents changed over the years (2012 - 2023)?
 - What types of vehicles are mostly involved in accidents?
-- What are the probability of accidents by Vehicle make? 
+- The probability of accidents by Vehicle make? 
 
 ## Data Source
 
