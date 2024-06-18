@@ -11,7 +11,7 @@ This project has been developed as a submission for the Data Analytics Boot Camp
 ## Project Overview
 
 ### Objective
-Our project endeavors to cast a spotlight on the underlying patterns of road traffic incidents in the state of Victoria, Australia, by deploying advanced data visualizations. Visualisations will be based on accident dataset attributes including Accident Types, Level of injuries/deaths, demographics of people, types of roads user, weather conditions, location and vehicle types. 
+Our project endeavors to cast a spotlight on the underlying patterns of road traffic incidents in the state of Victoria, Australia, by deploying advanced data visualizations. Visualisations will be based on accident dataset attributes including Accident Types, Level of injuries/deaths, Demographics of people, Types of road users, weather conditions, location and vehicle types. 
 
 ### Visualization Strategy
 Leveraging JavaScript libraries such as **Plotly, Leaflet, and D3**, we are crafting an array of interactive charts that serve as a compelling visual narrative of the data. Users will be empowered to:
@@ -35,7 +35,7 @@ Some research questions the visualisations would answer include:
 - What Local Government Areas (LGAs) have the most accidents? Which LGAs have the least?
 - How has the number of accidents changed over the years (2012 - 2023)?
 - What types of vehicles are mostly involved in accidents?
-- What are the most risky conditions to drive in? 
+- What are the probability of accidents by Vehicle make? 
 
 ## Data Source
 
@@ -146,11 +146,11 @@ Contains all the datasets and scripts used in the project:
 - `Project Proposal.docx`: Provides an outline of the proposed project idea, summarising the core concept and anticipated direction.
   
 ## Resources & References
-[DataVic Access Policy](https://www.data.vic.gov.au/datavic-access-policy)
-[Victoria Road Crash Data](https://discover.data.vic.gov.au/dataset/victoria-road-crash-data)
-[Plotly JavaScript Graphing Library](https://plotly.com/javascript/)
-[SQLite Javascript Libarary](https://sql.js.org/#/)
-[D3 Javascript Libray](https://d3js.org/)
-[Leaflet Javascript Libabry](https://leafletjs.com/)
+- [DataVic Access Policy](https://www.data.vic.gov.au/datavic-access-policy)
+- [Victoria Road Crash Data](https://discover.data.vic.gov.au/dataset/victoria-road-crash-data)
+- [Plotly JavaScript Graphing Library](https://plotly.com/javascript/)
+- [SQLite Javascript Libarary](https://sql.js.org/#/)
+- [D3 Javascript Libray](https://d3js.org/)
+- [Leaflet Javascript Libabry](https://leafletjs.com/)
 
 
