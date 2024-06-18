@@ -110,8 +110,8 @@ Discover the geographic patterns of road accidents in the map of Victoria. Follo
 1. Select a year from the dropdown to focus on that period’s data.
 2. Choose your map type: ‘Marker Map’ for individual accident points or ‘Heat Map’ for overall density.
 3. Plot the data and interact with the map:
-  **Marker Map**: Zoom in to break down clusters into smaller groups, revealing accident counts by location. Further zooming shows individual accidents, with pop-up markers providing details like ‘Date’, ‘Time’, and ‘Accident Type’.
-  **Heat Map**: Visualise accident hotspots and their intensity across the region.
+  - **Marker Map**: Zoom in to break down clusters into smaller groups, revealing accident counts by location. Further zooming shows individual accidents, with pop-up markers providing details like ‘Date’, ‘Time’, and ‘Accident Type’.
+  - **Heat Map**: Visualise accident hotspots and their intensity across the region.
 
 ## Ethical Considerations
 
