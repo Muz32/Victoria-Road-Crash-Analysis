@@ -150,7 +150,7 @@ Contains all the datasets and scripts used in the project:
 - [Victoria Road Crash Data](https://discover.data.vic.gov.au/dataset/victoria-road-crash-data)
 - [Plotly JavaScript Graphing Library](https://plotly.com/javascript/)
 - [SQLite JavaScript Library](https://sql.js.org/#/)
-- [D3 JavasScript Library](https://d3js.org/)
+- [D3 JavaScript Library](https://d3js.org/)
 - [Leaflet JavaScript Library](https://leafletjs.com/)
 
 
