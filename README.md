@@ -39,7 +39,7 @@ Some research questions the visualisations would answer include:
 
 ## Data Source
 
-The data underpinning our project was sourced from Vic Roads, under the Department of Transport and Planning, Victoria. The dataset is publicly available through the DataVic website and can be accessed here: https://discover.data.vic.gov.au/dataset/victoria-road-crash-data. 
+The data underpinning our project was sourced from Vic Roads, under the Department of Transport and Planning, Victoria. The dataset is publicly available through the DataVic website and can be accessed here: [Victoria Road Crash Data] https://discover.data.vic.gov.au/dataset/victoria-road-crash-data. 
 
 ## Instructions on Using and Interacting with the Project
 
@@ -110,8 +110,8 @@ Discover the geographic patterns of road accidents in the map of Victoria. Follo
 1. Select a year from the dropdown to focus on that period’s data.
 2. Choose your map type: ‘Marker Map’ for individual accident points or ‘Heat Map’ for overall density.
 3. Plot the data and interact with the map:
-  Marker Map: Zoom in to break down clusters into smaller groups, revealing accident counts by location. Further zooming shows individual accidents, with pop-up markers providing details like ‘Date’, ‘Time’, and ‘Accident Type’.
-  Heat Map: Visualise accident hotspots and their intensity across the region.
+  **Marker Map**: Zoom in to break down clusters into smaller groups, revealing accident counts by location. Further zooming shows individual accidents, with pop-up markers providing details like ‘Date’, ‘Time’, and ‘Accident Type’.
+  **Heat Map**: Visualise accident hotspots and their intensity across the region.
 
 ## Ethical Considerations
 
@@ -143,8 +143,13 @@ Contains all the datasets and scripts used in the project:
 - `Script for database creation and loading.py`: Python script to create and populate the SQLite database.
 - `Metadata Documentation for Victoria Road Crash Database.pdf`: PDF document detailing the metadata of the datasets.
 ### Project Proposal Folder
-- `Project Proposal.docx`: Provides an outline of the proposed project idea, summarizing the core concept and anticipated direction.
+- `Project Proposal.docx`: Provides an outline of the proposed project idea, summarising the core concept and anticipated direction.
   
 ## Resources & References
-
+[DataVic Access Policy] https://www.data.vic.gov.au/datavic-access-policy
+[Victoria Road Crash Data] https://discover.data.vic.gov.au/dataset/victoria-road-crash-data
+[Plotly JavaScript Graphing Library] https://plotly.com/javascript/
+[SQLite Javascript Libarary] https://sql.js.org/#/
+[D3 Javascript Libray] https://d3js.org/
+[Leaflet Javascript Libabry] https://leafletjs.com/
 
