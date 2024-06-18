@@ -39,7 +39,7 @@ Some research questions the visualisations would answer include:
 
 ## Data Source
 
-The data underpinning our project was sourced from Vic Roads, under the Department of Transport and Planning, Victoria. The dataset is publicly available through the DataVic website and can be accessed here: [Victoria Road Crash Data] https://discover.data.vic.gov.au/dataset/victoria-road-crash-data. 
+The data underpinning our project was sourced from Vic Roads, under the Department of Transport and Planning, Victoria. The dataset is publicly available through the DataVic website and can be accessed here: [Victoria Road Crash Data]https://discover.data.vic.gov.au/dataset/victoria-road-crash-data. 
 
 ## Instructions on Using and Interacting with the Project
 
@@ -146,10 +146,10 @@ Contains all the datasets and scripts used in the project:
 - `Project Proposal.docx`: Provides an outline of the proposed project idea, summarising the core concept and anticipated direction.
   
 ## Resources & References
-[DataVic Access Policy] https://www.data.vic.gov.au/datavic-access-policy
-[Victoria Road Crash Data] https://discover.data.vic.gov.au/dataset/victoria-road-crash-data
-[Plotly JavaScript Graphing Library] https://plotly.com/javascript/
-[SQLite Javascript Libarary] https://sql.js.org/#/
-[D3 Javascript Libray] https://d3js.org/
-[Leaflet Javascript Libabry] https://leafletjs.com/
+[DataVic Access Policy]https://www.data.vic.gov.au/datavic-access-policy
+[Victoria Road Crash Data]https://discover.data.vic.gov.au/dataset/victoria-road-crash-data
+[Plotly JavaScript Graphing Library]https://plotly.com/javascript/
+[SQLite Javascript Libarary]https://sql.js.org/#/
+[D3 Javascript Libray]https://d3js.org/
+[Leaflet Javascript Libabry]https://leafletjs.com/
 
