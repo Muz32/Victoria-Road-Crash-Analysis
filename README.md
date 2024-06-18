@@ -149,8 +149,8 @@ Contains all the datasets and scripts used in the project:
 - [DataVic Access Policy](https://www.data.vic.gov.au/datavic-access-policy)
 - [Victoria Road Crash Data](https://discover.data.vic.gov.au/dataset/victoria-road-crash-data)
 - [Plotly JavaScript Graphing Library](https://plotly.com/javascript/)
-- [SQLite Javascript Library](https://sql.js.org/#/)
-- [D3 Javascript Library](https://d3js.org/)
-- [Leaflet Javascript Library](https://leafletjs.com/)
+- [SQLite JavaScript Library](https://sql.js.org/#/)
+- [D3 JavasScript Library](https://d3js.org/)
+- [Leaflet JavaScript Library](https://leafletjs.com/)
 
 
