@@ -69,8 +69,8 @@ Clone or download the entire project repository to your local machine.
 
 Our webpage is organized into five distinct sections, each offering unique visualization capabilities:
 
-#### 1.Basic Visualizations
-This section enables users to plot basic visualizations of various datasets across different years. To begin:
+#### 1.Basic Visualisations
+This section enables users to plot basic visualisations of various datasets across different years. To begin:
 1. Use the 'Select Field' dropdown menu to choose the desired year for data plotting (available years range from 2012 to 2023).
 2. The subsequent dropdown menu allows selection of the dataset type, including:
    - Injuries and Deaths
@@ -145,6 +145,8 @@ Contains all the datasets and scripts used in the project:
 - `Metadata Documentation for Victoria Road Crash Database.pdf`: PDF document detailing the metadata of the datasets.
 ### Project Proposal Folder
 - `Project Proposal.docx`: Provides an outline of the proposed project idea, summarising the core concept and anticipated direction.
+### Image Folder
+- `Image1.png`: The top image of the visualisation webpage.
   
 ## Resources & References
 - [DataVic Access Policy](https://www.data.vic.gov.au/datavic-access-policy)
